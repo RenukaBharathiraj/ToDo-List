@@ -1,0 +1,138 @@
+body {
+    background: #8ec6c5;
+    font-family: "Rubik", "sans-serif";
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 5rem;
+    font-family: "Berkshire Swash", cursive;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+  .content {
+    background: #fff;
+    width: auto;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #f6f6f6;
+    margin: 5px;
+    font-size: 30px;
+    color: #555;
+    border: 1px solid #77d8d8;
+    border-radius: 10px;
+    min-height: 50px;
+  }
+  
+  /* li:nth-child(even){
+      padding: 10px;
+      
+      background: #f2f2f2;
+  } */
+  
+  li span {
+    display: block;
+  }
+  
+  li span:nth-child(2) {
+    font-size: 20px;
+    margin-top: 6px;
+    color: #999;
+  }
+  
+  .container {
+    display: flex;
+  }
+  .main-container {
+    width: 80vw;
+    margin: auto;
+  }
+  
+  li div.cross {
+    background: chocolate;
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    max-height: 2rem;
+    min-height: 2rem;
+  }
+  
+  li div.cross:hover {
+    background-color: coral;
+  }
+  form input {
+    float: left;
+    width: 70%;
+    margin: 5px;
+    border: 0;
+    border-bottom: 2px solid cornflowerblue;
+    margin: 0 1%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  
+  form input:focus {
+    outline: none;
+    border-bottom: 3px solid #88236f;
+    padding-bottom: 8px;
+    transition: all ease 0.2s;
+  }
+  
+  form:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  button {
+    border: 0;
+    background: #fe346e;
+    border-radius: 10px;
+    padding: 13px;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-family: "Rubik", "sans-serif";
+    letter-spacing: 1px;
+    color: #fff;
+  }
+  button:hover {
+    background: #d9455f;
+    color: #fff;
+  }
+  
+  footer {
+    position: fixed;
+    height: 50px;
+    background-color: #6983aa;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  

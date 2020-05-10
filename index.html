@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-firestore.js"></script>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rubik&display=swap"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+    <h1>TODO LIST</h1>
+<div class="main-container">
+    <div class="content">
+      <form id="todo-form">
+        <div class="container">
+          <input type="text" name="todo" placeholder="Enter the TODO">
+          <button type="submit">ADD TODO</button>
+
+        </div>
+          
+      </form>
+
+      <ul id="todo-list"></ul>
+    </div>
+  </div>
+  
+    <footer>
+     <p>&copyRenuka bharathiraj</p> 
+    </footer>
+    
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBWv02moRfIIdDnUemYzqO0Wc5xsS0Fm28",
+          authDomain: "todo-ea624.firebaseapp.com",
+          databaseURL: "https://todo-ea624.firebaseio.com",
+          projectId: "todo-ea624",
+          storageBucket: "todo-ea624.appspot.com",
+          messagingSenderId: "364670903256",
+          appId: "1:364670903256:web:0e3bffd5345a405a8bc8ad"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+      </script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
